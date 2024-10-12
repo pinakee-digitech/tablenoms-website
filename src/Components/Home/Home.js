@@ -1,5 +1,10 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import TrustedByImg1 from '../../img/TrustedBy1.png';
+import TrustedByImg2 from '../../img/TrustedBy2.png';
+import TrustedByImg3 from '../../img/TrustedBy3.png';
+import TrustedByImg4 from '../../img/TrustedBy4.png';
+import TrustedByImg5 from '../../img/TrustedBy5.png';
 
 export default function Home() {
     return (
@@ -15,9 +20,16 @@ export default function Home() {
                     color:"white"
                     }} >Get Price</button>
             </div>
-            {/* <div>
-                <h5>Trusted by</h5>
-            </div> */}
+            <div className='d-flex justify-content-center align-items-center flex-column'>
+                <h5 className='mb-3'>Trusted by</h5>
+                <div className='w-100 d-flex justify-content-around align-items-center flex-row'>
+                    <img className='rounded-3' style={{width:"12%", boxShadow: "rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px"}} src={TrustedByImg1} alt="img" />
+                    <img className='rounded-3' style={{width:"12%", boxShadow: "rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px"}} src={TrustedByImg2} alt="img" />
+                    <img className='rounded-3' style={{width:"12%", boxShadow: "rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px"}} src={TrustedByImg3} alt="img" />
+                    <img className='rounded-3' style={{width:"12%", boxShadow: "rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px"}} src={TrustedByImg4} alt="img" />
+                    <img className='rounded-3' style={{width:"12%", boxShadow: "rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px"}} src={TrustedByImg5} alt="img" />
+                </div>
+            </div>
         </div>
     )
 }

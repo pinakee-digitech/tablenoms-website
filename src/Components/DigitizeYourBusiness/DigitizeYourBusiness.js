@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import DigitizeYourBusinessImg from '../../img/sign-up-form.svg';
+import DigitizeYourBusinessImg from '../../img/digitalizYourBusiness.svg';
 
 export default function DigitizeYourBusiness() {
     return (
