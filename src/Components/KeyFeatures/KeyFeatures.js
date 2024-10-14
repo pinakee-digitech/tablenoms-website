@@ -45,7 +45,7 @@ export default function KeyFeatures() {
                 </div>
                 <div className='w-50 d-flex justify-content-around align-items-center flex-row flex-wrap pe-5'>
                     {keyFeatures.map((data) =>
-                        <div className='d-flex justify-content-center align-items-center flex-row'>
+                        <div className='d-flex justify-content-center align-items-center flex-row' key={data.title}>
                             <img className='me-2 mb-auto' style={{ width: "6%" }} src={data.src} alt="icon" />
                             <div className='mb-3'>
                                 <h4>{data.title}</h4>
