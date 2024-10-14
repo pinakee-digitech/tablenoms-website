@@ -30,6 +30,9 @@ export default function Home() {
                     <img className='rounded-3' style={{width:"12%", boxShadow: "rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px"}} src={TrustedByImg5} alt="img" />
                 </div>
             </div>
+            {/* <div>
+                <h5>Trusted by</h5>
+            </div> */}
         </div>
     )
 }
