@@ -1,0 +1,9 @@
+.payments-card{
+    height: 80vh;
+}
+
+@media only screen and (max-width: 768px) {
+    .payments-card{
+        height: fit-content;
+    }
+  }

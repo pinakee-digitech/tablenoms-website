@@ -1,4 +1,5 @@
 import React from 'react';
+import './KeyFeatures.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import KeyFeaturesImg from '../../img/KeyFeaturesImg.svg';
 import DigitalMenu from '../../img/KeyFeaturesIconMenu.svg';
@@ -37,13 +38,13 @@ export default function KeyFeatures() {
 
     ]
     return (
-        <div style={{ backgroundColor: "white", height: "fit-content" }}>
+        <div className='my-5 my-md-0' style={{ backgroundColor: "white", height: "fit-content" }}>
             <h1 className='text-center pt-5 mb-5'>Key Features</h1>
-            <div className='w-100 d-flex justify-content-center align-items-center flex-row pb-4 px-4'>
-                <div className='w-50 d-flex justify-content-center align-items-center flex-row'>
+            <div className='w-100 d-flex justify-content-center align-items-center flex-column flex-lg-row pb-4 px-2 px-lg-4'>
+                <div className='image-width d-flex justify-content-center align-items-center flex-row'>
                     <img className='w-75' src={KeyFeaturesImg} alt="img" />
                 </div>
-                <div className='w-50 d-flex justify-content-around align-items-center flex-row flex-wrap pe-5'>
+                <div className='card-width d-flex justify-content-around align-items-center flex-row flex-wrap px-2 px-md-0 pe-0 pe-md-5'>
                     {keyFeatures.map((data) =>
                         <div className='d-flex justify-content-center align-items-center flex-row' key={data.title}>
                             <img className='me-2 mb-auto' style={{ width: "6%" }} src={data.src} alt="icon" />

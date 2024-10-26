@@ -1,0 +1,9 @@
+.mainHome{
+    height: 90vh;
+}
+
+@media only screen and (max-width: 768px) {
+    .mainHome{
+        height:fit-content;
+    }
+  }

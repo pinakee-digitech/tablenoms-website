@@ -6,7 +6,7 @@ export default function Footer() {
         <div className="px-5 my-5">
             <div className="d-flex justify-content-evenly flex-column flex-md-row align-items-start">
                 <p className="py-5">A complete food order management solution for restaurants, hotels, cafes, bars, food courts, and corporates in one application.</p>
-                <div className="w-100 d-flex justify-content-around flex-row">
+                <div className="w-100 d-flex justify-content-between justify-content-md-around flex-row">
                     <div className="d-flex justify-content-center flex-column align-items-start height-100">
                         <h6>Pages</h6>
                         <a className="hover text-secondary-emphasis text-decoration-none" href="/">Home</a>

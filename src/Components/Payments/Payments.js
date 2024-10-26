@@ -5,13 +5,13 @@ import WorkOutlineRoundedIcon from '@mui/icons-material/WorkOutlineRounded';
 import ShieldOutlinedIcon from '@mui/icons-material/ShieldOutlined';
 import PaymentImg from '../../img/credit-card.svg';
 
-export default function Paymrnts() {
+export default function Payments() {
     return (
-        <div className='w-100 d-flex justify-content-center align-items-center flex-row' style={{ height: "80vh" }}>
-            <div className='w-50 d-flex justify-content-center align-items-center flex-row'>
+        <div className='my-5 my-md-0 payments-card w-100 d-flex justify-content-center align-items-center flex-column flex-md-row'>
+            <div className='image-width d-flex justify-content-center align-items-center flex-row'>
                 <img className='w-75' src={PaymentImg} alt="img" />
             </div>
-            <div className='w-50 d-flex justify-content-center align-items-center flex-row'>
+            <div className='card-width d-flex justify-content-center align-items-center flex-row'>
                 <div className='pe-4 w-75 d-flex justify-content-center align-items-start flex-column'>
                     <h1 className='text-start'>Take payments on your terms</h1>
                     <p>Tablenoms provides a safe and secure payment gateway which accepts UPI, credit & debit cards and all online payments.</p>
